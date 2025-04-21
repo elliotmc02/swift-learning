@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-learning}",
+            "name": "Debug TheBasics",
+            "program": "${workspaceFolder:swift-learning}/.build/debug/TheBasics",
+            "preLaunchTask": "swift: Build Debug TheBasics"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-learning}",
+            "name": "Release TheBasics",
+            "program": "${workspaceFolder:swift-learning}/.build/release/TheBasics",
+            "preLaunchTask": "swift: Build Release TheBasics"
+        }
+    ]
+}
